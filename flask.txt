@@ -31,7 +31,27 @@
  config.py : 환경변수 저장
 
  
-블루프린트 : 라우팅 함수의 체계적 관리
+* 블루프린트 : 라우팅 함수의 체계적 관리
 
-        
+* 데이터 베이스 
+     - ORM (클래스 == 테이블)
+     - java 에서 ORM 구현 : JPA 개념 => 하이버네이트 구현체
+     - Python ORM 구현 : SQLAlchemy 라이브러리 사용 : pip install SQLAlchemy
+
+
+라이브러리 설치
+    pip install flask-migrate
+    pip install flask-wtf
+
+
+DB
+ -- todo 앱이 SQLAlchemy 사용할 준비
+ -- set FLASK_APP=todo
+ -- flask db init
+
+ -- db 생성
+     flask db migrate
+ -- table 생성
+     flask db upgrade
+
     
