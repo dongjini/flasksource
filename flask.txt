@@ -40,8 +40,9 @@
 
 
 라이브러리 설치
-    pip install flask-migrate
-    pip install flask-wtf
+      pip install flask-migrate
+      pip install flask-wtf
+      pip install email_validator
 
 
 DB
@@ -53,5 +54,6 @@ DB
      flask db migrate
  -- table 생성
      flask db upgrade
+
 
     
